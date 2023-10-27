@@ -18,12 +18,12 @@ function createOrUpdateUser(initialValues: Partial<User>): User {
   const PrevUser: User = {
     name: "Oleg",
     surname: "Shevchenko",
-    email: "",
-    password: "",
+    email: "olegshev2@gmail.com",
+    password: "AzRwwvAh",
   };
   return { ...PrevUser, ...initialValues };
 }
 
-createOrUpdateUser({ email: "user@mail.com", password: "password123" });
+createOrUpdateUser({ email: "user@gmail.com", password: "password123" });
 
 export {};
